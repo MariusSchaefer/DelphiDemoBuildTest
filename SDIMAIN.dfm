@@ -166,6 +166,7 @@ object SDIAppForm: TSDIAppForm
     object EditCut1: TEditCut
       Category = 'Edit'
       Caption = 'Cu&t'
+      Enabled = False
       Hint = 'Cut|Cuts the selection and puts it on the Clipboard'
       ImageIndex = 0
       ShortCut = 16472
@@ -173,6 +174,7 @@ object SDIAppForm: TSDIAppForm
     object EditCopy1: TEditCopy
       Category = 'Edit'
       Caption = '&Copy'
+      Enabled = False
       Hint = 'Copy|Copies the selection and puts it on the Clipboard'
       ImageIndex = 1
       ShortCut = 16451
@@ -197,7 +199,7 @@ object SDIAppForm: TSDIAppForm
     Left = 72
     Top = 152
     Bitmap = {
-      494C01010F001300080010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010F0013000C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000004000000001002000000000000040
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
