@@ -9,4 +9,4 @@
 @SET PATH=%FrameworkDir%%FrameworkVersion%;%FrameworkSDKDir%;%PATH%
 
 
-"c:\Windows\Microsoft.NET\Framework\v2.0.50727\MSBuild.exe" SDIAPP.dproj > CON
+"c:\Windows\Microsoft.NET\Framework\v2.0.50727\MSBuild.exe" SDIAPP.dproj  /verbosity:n 
